@@ -633,7 +633,7 @@ section.section1::after{
 
 
 .employee_voice{
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 	position: relative;
 	display: flex;
@@ -1152,6 +1152,7 @@ section.section7 h5{
 	.section2 .title_employee_voice {
 		font-size: 80px;
 	}
+
 	.tip_employee_voice {
 		max-width: calc(100% - 423px);
 		
@@ -1212,7 +1213,7 @@ section.section7 h5{
 		font-size: 28px;
 	}
 
-	.employee_voice {
+	.employee_voice{
 	margin-bottom: 80px;
 	}
 	
@@ -1234,6 +1235,9 @@ section.section7 h5{
 	.text_employee_voice_mirror,
 	.section5 p.podcast_text{
 		font-size: 20px;
+	}
+	.employee_voice{
+		width: 100%;
 	}
 	.text_employee_voice{
 		margin-left: 68px;
@@ -1517,7 +1521,7 @@ section.section7 h5{
 		max-width: calc(100% - 223px);
 		font-size: 20px;
 		}
-	.employee_voice {
+	.employee_voice{
 	margin-bottom: 40px;
 		}
 	
@@ -1773,7 +1777,7 @@ section.section7 h5{
 	.employee_pic {
 		padding: 0 40px 20px;
 	}	
-	.employee_voice {
+	.employee_voice{
 		display: inline-block;
 	}
 	.text_employee_voice::after{
