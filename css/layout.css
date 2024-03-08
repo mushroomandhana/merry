@@ -215,7 +215,9 @@ body{
 
 .logos {
     display: flex;
+	align-items: center;
 	margin-left: 90px;
+	height: 44px;
 	}
 
 .logos a {
@@ -228,8 +230,10 @@ body{
 	}
 
 .logos a {
-	width: auto;
-	height: 44px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
 	}
 
 .hr_logo{
@@ -1375,6 +1379,10 @@ section.section7 h5{
 		background-position: 70% 25%;
 	}
 
+	.logos {
+		height: 32px;
+	}
+
 	.hero_image {
 		margin-top: 0;
 	}
@@ -1387,9 +1395,15 @@ section.section7 h5{
 		display: block;
 		padding-top: 60px;
 		}
+
+	.logos a img {
+		height: 32px;
+	}	
+
 	.hr_logo{
 		height: 32px;
 	}	
+
 	section.section1 {
 		height: 60vh;
 		}
@@ -1790,3 +1804,15 @@ section.section7 h5{
 		right: 15px;
 	}
 }
+
+@media screen and (max-width: 375px) {
+
+	.logos a img {
+		height: 28px;
+	}	
+
+	.hr_logo{
+		height: 28px;
+		margin: 0 12px;
+	}	
+}	
