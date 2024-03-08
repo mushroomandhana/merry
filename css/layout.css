@@ -260,7 +260,7 @@ body{
 	z-index: 0;
 	}
 	
-.utiltity{
+/* .utiltity{
 	float: right;
 	height: 36px;
 	position: absolute;
@@ -268,7 +268,7 @@ body{
     height: 100%;
 	right: 30px;
     align-items: center;
-	}
+	} */
 
 
 .description_btn{
@@ -294,22 +294,22 @@ body{
 	transition: ease-in-out 0.3s;
 	}
 
-.utiltity_btn{
+/* .utiltity_btn{
 	float: left;
 	width: 30px;
 	height: 30px;
 	margin-top: 3px;
 	margin-left: 15px;
 	cursor: pointer;
-	}
+	} */
 
-.utiltity_btn:hover{
+/* .utiltity_btn:hover{
 	opacity: .5;
 	-moz-transition: ease-in-out 0.3s;
 	-o-transition: ease-in-out 0.3s;
 	-webkit-transition: ease-in-out 0.3s;
 	transition: ease-in-out 0.3s;
-	}
+	} */
 
 .hero_image{
 	position: relative;
@@ -858,7 +858,7 @@ img.section2_bg{
 		padding: 60px 0 120px 0;
 		width: 100%;
 		text-align: center;
-		letter-spacing: -1px;
+		/* letter-spacing: -1px; */
 	}	
 
 	.podcast_area{
@@ -1499,14 +1499,14 @@ section.section7 h5{
 		}
 
 
-	.utiltity_btn{
+	/* .utiltity_btn{
 		float: left;
 		width: 30px;
 		height: 30px;
 		margin-top: 0px;
 		margin-left: 5px;
 		cursor: pointer;
-		}
+		} */
 
 	.section1 .sec_div.text_area {
 		padding: 0 28px;
@@ -1608,9 +1608,9 @@ section.section7 h5{
 		height: 32px;
 		}
 
-	.utiltity {
+	/* .utiltity {
 		right: 14px;
-		}
+		} */
 
 	.section1 .sec_div.text_area, .section2 .sec_div.text_area {
 		padding: 60px 30px 0;
