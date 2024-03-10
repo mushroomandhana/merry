@@ -1044,7 +1044,7 @@ img.section2_bg{
 
 @media screen and (max-width: 1280px) {	
 	body {
-		background-image: url(../images/body_bg.svg);
+		background-image: url(../images/body_bg.png);
 		background-size: 1280px 720px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -1219,7 +1219,7 @@ img.section2_bg{
 
 @media screen and (max-width: 768px) {
 	body {
-		background-image: url(../images/body_bg.svg);
+		background-image: url(../images/body_bg.png);
 		background-size: 768px 432px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -1413,7 +1413,7 @@ img.section2_bg{
 
 @media screen and (max-width:576px){
 	body {
-		background-image: url(../images/body_bg.svg);
+		background-image: url(../images/body_bg.png);
 		background-size: 768px 432px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
