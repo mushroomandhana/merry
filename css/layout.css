@@ -1413,7 +1413,7 @@ img.section2_bg{
 
 @media screen and (max-width:576px){
 	body {
-		background-image: url(../images/body_bg.png);
+		background-image: url(../images/body_bg.svg);
 		background-size: 768px 432px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
