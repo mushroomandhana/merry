@@ -150,7 +150,7 @@ body{
  .menu ul li {
 	 font-family: 'Roboto', sans-serif;
 	 font-weight: 100;
-	 font-size: 30px;
+	 font-size: 24px;
 	 color: #fff;
 	 min-height: 45px;
 	 padding: 15px;
@@ -163,7 +163,7 @@ body{
 	}
 
 .menu ul li a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #ffffff;
 	-moz-transition: ease-in-out 0.3s;
 	-o-transition: ease-in-out 0.3s;
@@ -411,13 +411,13 @@ body{
 	left: 50%;
 	}	
 
-.section1,.section2,.section3,.section4,.section5,.section6,.section7{
+.section1,.section2,.section3{
 	width: 100%;
 	}
 
 section.section1{
 	position: relative;
-	background-image: url(../images/sec1_bg.png); background-repeat: space;
+	background-image: url(../images/sec1_bg.svg); background-repeat: space;
 	background-size: cover;
 	text-align: left;
 	width: 100%;
@@ -473,24 +473,13 @@ section.section1::after{
 
 .section1 h2{
 	position: relative;
-	font-size: 60px;
+	font-size: 48px;
 	color: #000;
 	font-weight: bold;
 	z-index: 1;
 	margin-bottom: 40px;
 	}
 
-/* .section1 h2::before{
-    position: absolute;
-    content: "";
-    right: 27%;
-    top: -164%;
-    width: 349px;
-    height: 349px;
-    border-radius: 50%;
-    background: #FFFFFF;
-    z-index: -1;
-	} */
 
 .section1 h2::after{
 	position: absolute;
@@ -508,7 +497,7 @@ section.section1::after{
 	}
 
 .section1 .text_area p {
-		font-size: 28px;
+		font-size: 24px;
 		color: #000;
 		line-height: 1.7;
 		margin-top: 10px;
@@ -586,7 +575,7 @@ section.section1::after{
 .section2 .title_employee_voice{
 	position: relative;
     display: inline-block;
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 700;
     padding: 80px 0 80px 0;
     z-index: 1;
@@ -608,9 +597,9 @@ section.section1::after{
 	display: inline-block;
     position: relative;
     width: 100%;
-    max-width: calc(100% - 623px);
+    max-width: calc(100% - 423px);
     border-bottom: solid 2px #000000;
-    font-size: 40px;
+    font-size: 36px;
     text-align: right;
     margin: 0 0 0 20px;
     z-index: 1;
@@ -650,7 +639,7 @@ section.section1::after{
     border-radius: 24px;
     display: flex;
     align-items: center;
-	font-size: 28px;
+	font-size: 24px;
 }
 
 
@@ -664,7 +653,7 @@ section.section1::after{
     border-radius: 24px;
     display: flex;
     align-items: center;
-	font-size: 28px;
+	font-size: 24px;
 }
 .text_employee_voice_mobile{
 	display: none;
@@ -743,73 +732,6 @@ img.section2_bg{
 }
 
 .section3{
-	background-image: url(../images/ad_banner.jpg); background-repeat: round;
-	}
-
-
-.section3 .slideshow_area{
-	margin: 150px 100px;
-	}
-
-.section3 .carousel{
-	width: 100%; 
-	max-width: 1000px;
-	margin: 0 auto;
-	}
-
-.section3 h2{
-	color: #22639A;
-	}
-
-.section3 p{
-	color: #271e1f;
-	}
-
-.section3 .carousel-control-prev{
-	left: 25px;
-	width: 40px;
-	height: 40px;
-	background-color: black;
-	position: absolute;
-	top: calc(50% + 20px);
-	border-radius: 50%;
-	}
-
-.section3 .carousel-control-prev-icon,
-	carousel-control-next-icon{
-	position: absolute;
-	}
-
-.section3 .carousel-control-next{
-	right:  25px;
-	width: 40px;
-	height: 40px;
-	background-color: black;
-	position: absolute;
-	top: calc(50% + 20px);
-	border-radius: 50%;
-	}
-
-.section4{
-	padding: 150px 100px;
-	color: #ffffff;
-	}
-
-.video_area{
-    text-align: center;
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    margin: 0 auto;
-	}
-
-.section4 .video_area p{
-	text-align: center; 
-	padding-top: 20px;
-	text-shadow: rgb(100 100 100 / 50%) 0.05em 0.05em 0.1em;
-	}
-
-.section5{
 	padding: 0 80px;
 	/* background-color: #FFF500; */
 	}
@@ -818,32 +740,31 @@ img.section2_bg{
 	width: 100%; 
 	max-width: 1200px; 
 	border-top: 2px solid #000;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 	}
 
-.section5 iframe {
+.section3 iframe {
 		width: 100%;
 		text-align: center;
 		max-width: 840px;
 		overflow: hidden;
 		border-radius: 10px;
 	}
-.section5 .card-title{
+.section3 .card-title{
 		display: inline-block;
 		width: 100%;
-		font-size: 60px;
+		font-size: 48px;
 		padding: 120px 0 80px 0;
 		width: 100%;
 		text-align: center;
 	}
 
-.section5 p.podcast_text{
+.section3 p.podcast_text{
 		display: inline-block;
-		font-size: 28px;
-		padding: 60px 0 120px 0;
+		font-size: 24px;
+		padding: 48px 0 80px 0;
 		width: 100%;
 		text-align: center;
-		/* letter-spacing: -1px; */
 	}	
 
 	.podcast_area{
@@ -851,7 +772,7 @@ img.section2_bg{
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-.section5 img{
+.section3 img{
 	width: 100%;
     max-width: 600px;
 	}
@@ -885,7 +806,7 @@ img.section2_bg{
 	padding: 30px 0px 30px 80px;
 	}
 
-.section5 .article_des h2{
+.section3 .article_des h2{
 	font-size: 28px;
 	color: #000;
 	font-weight: bold;
@@ -897,7 +818,7 @@ img.section2_bg{
     overflow: hidden;
 	}
 
-.section5 .article_des p{
+.section3 .article_des p{
 	font-size: 24px;
 	color: #271e1f;
 	line-height: 1.7;
@@ -918,12 +839,13 @@ img.section2_bg{
 		display: inline-block;
 		font-size: 18px;
 		color: #ffffff;
-		line-height: 50px;
+		line-height: 56px;
 		margin-top: 10px;
 		background-color: #000;
 		}
 
-	.section5 .article_des a:hover{
+	.section3 .article_des a:hover{
+		text-decoration: none;
 		background-color: #ffffff;
 		color: #000000;
 		-moz-transition: ease-in-out 0.3s;
@@ -932,7 +854,6 @@ img.section2_bg{
 		transition: ease-in-out 0.3s;
 		}		
 
-	
 	
 	.sec1_img{
 		position: absolute;
@@ -980,64 +901,6 @@ img.section2_bg{
 		overflow:hidden;
 		border-radius:10px;
 		}
-	
-	.section7{
-		padding: 100px;
-		}
-	
-	.section7 h2{
-		padding-bottom: 20px;
-		color: #ffffff;
-		text-shadow: rgb(100 100 100 / 50%) 0.05em 0.05em 0.1em;
-		}
-	
-	section.section7 .card-group{
-		width: 100%;
-		max-width: 1000px;
-		margin: 0 auto; 
-		background-color: transparent; 
-		border: none; 
-		}
-	
-	section.section7 .card-group .card{
-		background-color: transparent;
-		border: none; 
-		margin: 0 15px; 
-		text-align: left; 
-		color: #ffffff;
-		}
-	
-	section.section7 .card-group .card:nth-child(1){
-		margin: 0 15px 0 0;
-		} 
-	
-	section.section7 .card-group .card:nth-child(3){
-		margin: 0 0 0 15px;
-		} 
-	
-	section.section7 .card-group .card .card-body{
-		padding: 1.25rem 0 0 0;
-		}
-	
-	section.section7 .card-group .card a{
-		color: #ffffff;
-		}
-	
-	section.section7 .card-group .card a:hover{
-		color: #ffffff;
-		-moz-transition: ease-in-out 0.3s;
-		-o-transition: ease-in-out 0.3s;
-		-webkit-transition: ease-in-out 0.3s;
-		transition: ease-in-out 0.3s;
-		}
-
-section.section7 h5{
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
-	overflow: hidden;
-	text-shadow: rgb(100 100 100 / 50%) 0.05em 0.05em 0.1em;
-	}
 
 #FOOTER{
 	float:left;
@@ -1128,6 +991,10 @@ section.section7 h5{
 	.section1 h2::after{
 		display: none;
 	} 
+	/* section.section1{
+	height: calc(100vh - 240px);
+	} */
+	
 	section.section1::after{
 		display: none;
 	}
@@ -1135,11 +1002,11 @@ section.section7 h5{
 		display: none;
 	}
 	.section2 .title_employee_voice {
-		font-size: 80px;
+		font-size: 60px;
 	}
 
 	.tip_employee_voice {
-		max-width: calc(100% - 423px);
+		max-width: calc(100% - 323px);
 		
 	}
 
@@ -1151,16 +1018,16 @@ section.section7 h5{
 		margin-right: 72px;
 	}
 	
-	.section1 h2,.section5 .card-title{
-		font-size: 40px;
+	.section1 h2,.section3 .card-title{
+		font-size: 36px;
 	}
 	.section1 .text_area p,
 	.text_employee_voice,
 	.text_employee_voice_mirror,
-	.section5 p.podcast_text{
+	.section3 p.podcast_text{
 		font-size: 24px;
 	}
-	.section5 .article_des h2 {
+	.section3 .article_des h2 {
 		font-size: 28px;
 	}
 	.article_des {
@@ -1177,7 +1044,7 @@ section.section7 h5{
 
 @media screen and (max-width: 1280px) {	
 	body {
-		background-image: url(../images/body_bg.png);
+		background-image: url(../images/body_bg.svg);
 		background-size: 1280px 720px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -1191,11 +1058,11 @@ section.section7 h5{
 		padding: 0 80px 160px 80px;
 	}
 	.section2 .title_employee_voice {
-		font-size: 60px;
+		font-size: 48px;
 	}
 	.tip_employee_voice {
-		max-width: calc(100% - 323px);
-		font-size: 28px;
+		max-width: calc(100% - 263px);
+		font-size: 24px;
 	}
 
 	.employee_voice{
@@ -1218,7 +1085,7 @@ section.section7 h5{
 	.section1 .text_area p,
 	.text_employee_voice,
 	.text_employee_voice_mirror,
-	.section5 p.podcast_text{
+	.section3 p.podcast_text{
 		font-size: 20px;
 	}
 	.employee_voice{
@@ -1240,13 +1107,14 @@ section.section7 h5{
 		width: 60px;
 		height: 39px;
 		top: -16px;
-	}
+		}
 	.employee_pic {
 		width: 100%;
 		max-width: 240px;
 		height: auto;
 		align-items: center;
-	}
+		}
+
 	.article_table{
 		display: inline-table;
 		width: 100%;
@@ -1265,7 +1133,7 @@ section.section7 h5{
 		font-weight: bold;
 		float: left;
 		width: 100%;
-	}
+		}
 
 	.article_des p{
 		font-size: 18px;
@@ -1323,23 +1191,8 @@ section.section7 h5{
 	img.section2_bg{
 		display: none;
 	}
-	.section3 .slideshow_area{
-		margin: 60px 50px;
-		}
 
-	 .carousel-item h2, .carousel-item p{
-		text-align: left;
-		}
-
-	.section4{
-		padding: 60px 50px;
-		}
-
-	.section4 p{
-		margin-bottom: 0;
-		}
-
-	.section5 {
+	.section3 {
 		padding: 0 40px;
 		}
 	.article_des {
@@ -1357,11 +1210,6 @@ section.section7 h5{
 	.section6 h5 {
 		padding: 60px 0 20px 0;
 		}
-
-	.section7{
-		padding: 100px 50px;
-		}
-
 
 	#FOOTER {
 		padding: 0 28px 0;
@@ -1416,7 +1264,7 @@ section.section7 h5{
 	.text_employee_voice::before,
 	.text_employee_voice_mirror::before{
     left: 32px;
-	top: -20px;
+	top: -24px;
 	}
 
 	.text_employee_voice_mirror {
@@ -1426,20 +1274,12 @@ section.section7 h5{
 }
 
 @media screen and (max-width: 680px) {
-	section.section7 .card-group .card:nth-child(1){
-		margin: 0 15px 0 0;
-		} 
-
-	section.section7 .card-group .card:nth-child(3){
-		margin: 0 0 0 15px;
-		} 
 
 	.NAV_btn_wrap{
 		display: block;
 		position:fixed;
 		width:60px;
 		top:18px;
-		/* left:0px; */
 		z-index:4;
 		}	
 
@@ -1495,16 +1335,6 @@ section.section7 h5{
 		padding-right: 10px;
 		}
 
-
-	/* .utiltity_btn{
-		float: left;
-		width: 30px;
-		height: 30px;
-		margin-top: 0px;
-		margin-left: 5px;
-		cursor: pointer;
-		} */
-
 	.section1 .sec_div.text_area {
 		padding: 0 28px;
 		}	
@@ -1512,20 +1342,27 @@ section.section7 h5{
 		padding: 0 28px 120px 28px;
 		}	
 	.section2 .title_employee_voice {
-		font-size: 40px;
+		font-size: 32px;
+		top: 8px;
 		}
 	.tip_employee_voice {
-		max-width: calc(100% - 223px);
-		font-size: 20px;
+		max-width: calc(100% - 175px);
+		font-size: 18px;
+		margin: 0 0 0 12px;
 		}
 	.employee_voice{
 	margin-bottom: 40px;
 		}
 	
-	.section5 {
+	.section3 {
 		padding: 0 28px;
 		}	
-
+	#line_hr {
+		padding-bottom: 80px;
+	}
+	.section3 p.podcast_text {
+		padding: 40px 0 60px 0;
+		}	
 	.article_table{
 		display: inline-block;
 		width: 100%;
@@ -1557,17 +1394,7 @@ section.section7 h5{
 	.article_des p{
 		margin-top: 0;
 		}
-
-	.carousel-text-area{
-		width: 100%;
-		min-height: 116px;
-		margin-bottom: 20px;
-		}
 	
-	.section3 .carousel-control-prev,
-	.section3 .carousel-control-next{
-		top: calc(50% + 48px);
-		}
 	#FOOTER {
 		margin-top: 85px;
 	}	
@@ -1605,10 +1432,6 @@ section.section7 h5{
 		height: 32px;
 		}
 
-	/* .utiltity {
-		right: 14px;
-		} */
-
 	.section1 .sec_div.text_area, .section2 .sec_div.text_area {
 		padding: 60px 30px 0;
 		}
@@ -1638,44 +1461,10 @@ section.section7 h5{
 		left: 24px;
 		top: -24px;
 		}
-
-	.section3 .slideshow_area {
-		margin: 60px 30px;
-		}
-
-	.section4 {
-		padding: 60px 30px;
-		}
-
-	/* .section5 {
-		padding: 60px 30px;
-		} */
-
-	.section6.sec_table {
-		padding: 0 30px;
-		}
-
-	.section7 {
-		padding: 100px 30px;
-		}
-
-	section.section7 .card-group .card{
-		margin: 0; 
-		padding-bottom: 50px;
-		}
-
-	section.section7 .card-group .card:nth-child(1){
-		margin: 0; 
-		} 
-
 	.article_table:nth-child(3) .article_des{
 		padding: 30px 0 0 0;
 		}
-
-	section.section7 .card-group .card:nth-child(3){
-		margin: 0; 
-		padding-bottom: 50px;
-		} 
+ 
 	.article_div.article_des p {
 		margin-bottom: 0;
 	}	
@@ -1703,15 +1492,15 @@ section.section7 h5{
 	}
 
 	.section1 h2,
-	.section5 .card-title,
+	.section3 .card-title,
 	.section2 .title_employee_voice{
-		font-size: 28px;
+		font-size: 24px;
 	}
 	.section1 .text_area p,
 	.text_employee_voice,
 	.text_employee_voice_mirror,
-	.section5 p.podcast_text,
-	.section5 .article_des p{
+	.section3 p.podcast_text,
+	.section3 .article_des p{
 		font-size: 18px;
 	}
 	.tip_employee_voice {
@@ -1783,14 +1572,14 @@ section.section7 h5{
 	.text_employee_voice_mirror::after{
 		display: none;	
 	}
-	.section5 {
+	.section3 {
 		padding: 0 15px;
 	}
 
-	.section5 .card-title {
+	.section3 .card-title {
 		padding: 80px 0 20px 0;
 	}
-	.section5 p.podcast_text {
+	.section3 p.podcast_text {
 		padding: 40px 0;
 	}
 	#line_hr{
