@@ -429,21 +429,6 @@ section.section1{
     align-items: center;
 	}
 
-section.section1::after{
-	position: absolute;
-	display: block;
-    width: 100px;
-    height: 96px;
-    content: "";
-    background-image: url(../images/img_geometry.svg);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-	right: 33.3%;
-    bottom: 4%;
-    z-index: -1;
-	}
-
 .section1 img{
 	width:  240px;
 	height: auto;
@@ -480,22 +465,6 @@ section.section1::after{
 	margin-bottom: 40px;
 	}
 
-
-.section1 h2::after{
-	position: absolute;
-	display: block;
-    width: 831px;
-    height: 349px;
-    content: "";
-    background-image: url(../images/img_cycle_group.svg);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    left: 33.3%;
-    top: -192%;
-    z-index: -1;
-	}
-
 .section1 .text_area p {
 		font-size: 24px;
 		color: #000;
@@ -504,21 +473,6 @@ section.section1::after{
 		position: relative;
 		z-index: 1;
 	}
-
-.section1 .text_area p::after{
-	position: absolute;
-	display: block;
-	width: 100px;
-	height: 111px;
-	content: "";
-	background-image: url(../images/img_triangle_s.svg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	left: 24%;
-	top: 156%;
-	z-index: -1;
-	}	
 
 .section1 .text_area p a{
 	color: #22639A;
@@ -720,16 +674,7 @@ section.section1::after{
     left: 78px;
     top: -28px;
     z-index: 0;
-}
-
-img.section2_bg{
-	max-width: 38.4%;
-    height: auto;
-    position: absolute;
-    bottom: -100px;
-    right: 192px;
-	display: inline-block;
-}
+	}
 
 .section3{
 	padding: 0 80px;
@@ -988,19 +933,6 @@ img.section2_bg{
 
 
 @media screen and (max-width: 1440px) {	
-	.section1 h2::after{
-		display: none;
-	} 
-	/* section.section1{
-	height: calc(100vh - 240px);
-	} */
-	
-	section.section1::after{
-		display: none;
-	}
-	.section1 .text_area p::after{
-		display: none;
-	}
 	.section2 .title_employee_voice {
 		font-size: 60px;
 	}
@@ -1069,13 +1001,6 @@ img.section2_bg{
 	margin-bottom: 80px;
 	}
 	
-	img.section2_bg{
-		max-width: 48%;
-		height: auto;
-		position: absolute;
-		bottom: -100px;
-		right: 192px;
-	}
 }
 
 @media screen and (max-width: 1044px) {
@@ -1179,27 +1104,27 @@ img.section2_bg{
 		display: block;
 		padding-top: 20px;
 		}
+
 	.section1 .sec_div.text_area {
 		padding: 0 40px;
-	}
-	.section2 {
+		}
+
+	.section2{
 			padding: 0 40px 80px 40px;
 		}
 	.section2 img{
 		/* padding: 20px 50px 60px 50px; */
 		}
-	img.section2_bg{
-		display: none;
-	}
 
-	.section3 {
+	.section3{
 		padding: 0 40px;
 		}
-	.article_des {
+
+	.article_des{
 		padding: 0 0 0 30px;
 		}
 
-	.article_table {
+	.article_table{
 		padding-bottom: 80px;
 		}
 
@@ -1207,18 +1132,18 @@ img.section2_bg{
 		padding: 0 50px;
 		}	
 
-	.section6 h5 {
+	.section6 h5{
 		padding: 60px 0 20px 0;
 		}
 
-	#FOOTER {
+	#FOOTER{
 		padding: 0 28px 0;
 		}
 }
 
 
 @media screen and (max-width: 768px) {
-	body {
+	body{
 		background-image: url(../images/body_bg.png);
 		background-size: 768px 432px;
 		background-repeat: no-repeat;
@@ -1227,13 +1152,13 @@ img.section2_bg{
 		background-position: 70% 25%;
 	}
 
-	.logos {
+	.logos{
 		height: 32px;
-	}
+		}
 
-	.hero_image {
+	.hero_image{
 		margin-top: 0;
-	}
+		}
 
 	.hero_image_bg.desktop img{
 		display: none;
@@ -1246,11 +1171,11 @@ img.section2_bg{
 
 	.logos a img {
 		height: 32px;
-	}	
+		}	
 
 	.hr_logo{
 		height: 32px;
-	}	
+		}	
 
 	section.section1 {
 		height: 60vh;
@@ -1259,18 +1184,18 @@ img.section2_bg{
 	.text_employee_voice {
 		margin-left: 48px;
 		padding: 24px 32px;
-	}	
+		}	
 	
 	.text_employee_voice::before,
 	.text_employee_voice_mirror::before{
-    left: 32px;
-	top: -24px;
-	}
+		left: 32px;
+		top: -24px;
+		}
 
 	.text_employee_voice_mirror {
 		margin-right: 48px;
 		padding: 24px 32px;
-	}
+		}
 }
 
 @media screen and (max-width: 680px) {
